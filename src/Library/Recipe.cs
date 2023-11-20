@@ -64,7 +64,7 @@ namespace Full_GRASP_And_SOLID
         }
 
         //Agregado mediante el principio Expert:
-        public int GetCookTime()//Método que calcula el tiempo de cocción de la receta
+        public int GetCookTime() //Método que calcula el tiempo de cocción de la receta
         {
             int totalTime=0;
             foreach (BaseStep step in this.steps) //Recorre cada paso de la receta
